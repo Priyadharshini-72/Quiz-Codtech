@@ -1,5 +1,5 @@
 
-**Name: PRIYADHARSHINI K  
+**Name:** PRIYADHARSHINI K  
 **Intern ID:** CTIS0335  
 **Domain:** Frontend Development  
 **Company:** Codetech IT Solutions  
@@ -10,8 +10,8 @@
 
 ## 📌 Project Overview
 
-This project is a simple Quiz Application developed using HTML and CSS only.  
-It consists of 10 quiz questions, and at the end of the quiz, the **final score is displayed.
+This project is a simple** Quiz Application developed** using HTML and CSS only.  
+It consists of 10 quiz questions, and at the end of the quiz, the final score is displayed.
 
 This project was created as part of my **Frontend Development Internship** to strengthen my understanding of HTML structure and CSS styling.
 
