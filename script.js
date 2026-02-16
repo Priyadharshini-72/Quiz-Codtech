@@ -1,6 +1,6 @@
 var questions = [{
-      "question": "Which data type is used to store whole numbers?",
-      "option1": "float",
+      "question": "What does HTML stand for?",
+      "option1": "Hyperlinks and Text Markup Language",
       "option2": "int",
       "option3": "char",
       "option4": "double",
@@ -164,3 +164,4 @@ function restartgame() {
       loadquestion(currq)
 }
 loadquestion(currq)
+
