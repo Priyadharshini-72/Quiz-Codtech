@@ -192,4 +192,5 @@ function restartgame() {
       loadquestion(currq)
 }
 loadquestion(currq)
+startTimer()
 
