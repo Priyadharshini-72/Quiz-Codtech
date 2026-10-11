@@ -100,6 +100,34 @@ var currq = 0
 var total = questions.length
 var score = 0
 var selectedid = document.querySelectorAll("input[name='opt']")
+var timeLeft = 5 * 60;
+var timerInterval;
+
+function startTimer() {
+    clearInterval(timerInterval);
+
+    timeLeft = 5 * 60;
+    updateTimer();
+
+    timerInterval = setInterval(function () {
+        timeLeft--;
+        updateTimer();
+
+        if (timeLeft <= 0) {
+            clearInterval(timerInterval);
+            finishQuiz();
+        }
+    }, 1000);
+}
+
+function updateTimer() {
+    var minutes = Math.floor(timeLeft / 60);
+    var seconds = timeLeft % 60;
+
+    document.getElementById("timer").textContent =
+        String(minutes).padStart(2, "0") + ":" +
+        String(seconds).padStart(2, "0");
+}
 function loadquestion(currq) {
       var data = questions[currq]
       quesclass.textContent = (currq + 1) + "." + data.question
