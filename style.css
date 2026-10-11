@@ -138,3 +138,14 @@ h2 {
     margin-top: 25px;
 
 }
+.timer {
+    text-align: right;
+    font-size: 22px;
+    font-weight: bold;
+    color: #111620;
+    margin: 10px 20px;
+}
+
+#timer {
+    color: red;
+}
